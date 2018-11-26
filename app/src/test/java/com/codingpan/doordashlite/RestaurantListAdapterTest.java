@@ -1,7 +1,5 @@
 package com.codingpan.doordashlite;
 
-import android.view.ViewGroup;
-
 import com.codingpan.doordashlite.activities.RestaurantListAdapter;
 import com.codingpan.doordashlite.objects.Restaurant;
 import com.google.gson.Gson;
@@ -10,7 +8,6 @@ import junit.framework.Assert;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import java.util.ArrayList;
