@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="128dp"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/activity_h_small_margin" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/activity_h_small_margin"
+        android:layout_toRightOf="@id/logo"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/textSizeMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/name"
+        android:layout_below="@id/name"
+        android:text="Desc"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/textSizeMedium" />
+
+    <TextView
+        android:id="@+id/deliveryFee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/name"
+        android:layout_below="@id/desc"
+        android:text="deliveryFee"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/textSizeMedium" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/deliveryFee"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/activity_h_small_margin"
+        android:text="status"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/textSizeMedium" />
+
+</RelativeLayout>
+
